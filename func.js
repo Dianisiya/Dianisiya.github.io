@@ -10,7 +10,7 @@ window.onload = function() {
         if (GetInfo.status != 200) {
           document.getElementById("userName").value = "";
         } else {
-          window.location.href = window.location.href.replace('/index.html', '/repositories/index.html?userName=' + userName)
+          window.location.href = window.location.href + '/repositories?userName=' + userName;
         }
       
     }
