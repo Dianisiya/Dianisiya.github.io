@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<div class="together">
+
+
+  <div class="filter">
+    
+    <div class="top">
+    <label for="hasOI">Has open issues</label>
+    <input id="hasOI" type="checkbox" value="has_open_issue">
+    <label for="hasTopics">Has topics</label>
+    <input id="hasTopics" type="checkbox" value="has_topics">
+    <label for="stars">Stared more then </label>
+    <input type="number" placeholder="" id="stars">
+    </div>
+
+    <div class="date">
+    <label for="date">Update after...</label>
+    <input id="date" type="date">
+    </div>
+
+    <div class="type">
+      <label for="type">Type: </label>
+      <select id="type">
+      <option value="all">all</option>
+      <option value="forks">forks</option>
+      <option value="sources">sources</option>
+    </select>
+    <label for="language">Language: </label>
+    <select id="language">
+    </select>
+    </div>
+    
+    <button id="filter">Filter</button>
+    </div>
+
+  <div class="sort">
+    <div class="bySome">
+      <input type="radio" name="sort-type" value="name" checked="checked">
+      <label>by name</label>
+      <input type="radio" name="sort-type" value="stars">
+      <label>by stars count</label>
+      <input type="radio" name="sort-type" value="open-issues">
+      <label>by open issues count</label>
+      <input type="radio" name="sort-type" value="update-date">
+      <label>by last update date</label>
+    </div>
+
+    <div class="sotrD-n" >
+      <label for="sort-direction">Sort by:</label>
+      <select id="sort-direction">
+        <option value="descending">descending</option>
+        <option value="ascending">ascending</option>
+      </select>
+    </div>
+   
+    <button id="sort">Sort</button>
+  </div>
+
+</div>
+
+  <div id="repositories">
+
+
+  </div>
+  <button id="getMore">More</button>
+
+<script src="func.js"></script>
+</body>
+
+</html>

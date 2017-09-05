@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    align-items: center;
+    margin-top: 13%;
+}
+
+#userName{
+    width: 200px;
+    height: 30px;;
+    margin: 3%;
+    position: center;
+    border: 1px solid gray;
+    border-radius:5px;
+    color: #393939;
+    padding: 0 3px;
+    outline: none;
+}
+
+#search{
+    width: 60px;
+    height: 30px; 
+    position: center;
+    border: 1px solid gray;
+    border-radius:5px;
+    color: #393939;
+}

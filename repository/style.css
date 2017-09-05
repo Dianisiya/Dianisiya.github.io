@@ -1,0 +1,39 @@
+body, html, #repository {
+  width: 100%;
+  height: 100%;
+}
+
+#repository{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.repo-container {
+  align-self: center;
+}
+
+.repo-container .name {
+  font-size: 20px;
+}
+
+.repo-container .link {
+  width: 300px;
+  border: none;
+  outline: none;
+}
+
+.repo-container .contributors {
+
+}
+
+.repo-container .contributors .contributor {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.repo-container .contributors .contributor img {
+  height: 30px;
+  width: 30px;
+}

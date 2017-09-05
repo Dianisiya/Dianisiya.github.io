@@ -1,0 +1,127 @@
+.together{
+    display: flex;
+    flex-direction: row;
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+    margin: auto;
+}
+
+.top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 1%;
+}
+
+.date{
+    justify-content: space-between;
+    margin-bottom: 1%;
+    padding: 1%;
+    
+}
+
+.type{
+    display: flex;
+    margin-bottom: 2%;
+    padding: 1%;
+    
+}
+
+#filter{
+    width: 100px;
+    height: 30px;
+    margin-left: 35%;
+    
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 20%;
+    }
+
+.bySome{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+}
+
+#type{
+    margin-right: 2%;
+}
+
+.sortD-n{
+    display: flex;
+    margin-bottom: 4%;
+    padding: 1%;
+}
+#sort{
+    width: 100px;
+    height: 30px;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+
+#repositories{
+    margin: 2%;
+    padding: 2%;
+}
+
+.repo {
+    width: 100%;
+    padding: 20px;
+}
+
+.repo .name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.repo .name-container .name {
+    font-size: 20px;
+}
+
+.repo .name-container .fork {
+    font-size: 10px;
+    align-self: center;
+    padding-left: 10px;
+ }
+
+.repo .description{
+    font-size: 14px;
+}
+
+.repo .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.repo .info div{
+    padding: 0 5px;
+}
+
+.repo .info .language{
+    align-self: center;
+    font-size: 10px;
+}
+
+.repo .info .stars{
+    align-self: center;
+    font-size: 12px;
+}
+
+.repo .info .updated {
+    align-self: center;
+    font-size: 12px;
+}
+    
+
