@@ -21,6 +21,7 @@ window.onload = function(){
   let page = 1;
   
   newRepos();
+  list = source;
 
   document.getElementById('getMore').onclick = function() {
     newRepos();

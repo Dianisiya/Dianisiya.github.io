@@ -7,33 +7,51 @@ body, html, #repository {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+
 }
 
 .repo-container {
   align-self: center;
+  background: #d0d5dd /*#c6cad1*/;
+  padding: 20px;
+  border-radius: 4px;  
 }
 
 .repo-container .name {
   font-size: 20px;
+    padding-bottom: 20px;
 }
 
 .repo-container .link {
   width: 300px;
   border: none;
   outline: none;
-}
-
-.repo-container .contributors {
-
+  padding-bottom: 20px;
+  background-color: transparent;
 }
 
 .repo-container .contributors .contributor {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+    padding-bottom: 10px;
+
 }
 
 .repo-container .contributors .contributor img {
   height: 30px;
   width: 30px;
+}
+
+.repo-container .languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 14px;
+}
+
+.repo-container .languages .language {
+  padding: 0 5px;
+  padding-bottom: 10px;
 }
